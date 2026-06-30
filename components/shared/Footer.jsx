@@ -122,6 +122,7 @@ export default function Footer() {
                   <Link
                     key={link.href}
                     href={link.href}
+                    prefetch={false}
                     className="text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
                   >
                     {link.label}
